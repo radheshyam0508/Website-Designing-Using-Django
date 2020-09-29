@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class= "container-fluid my-2 px-4">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+
+   <style>
+     .carousel-caption{ border-radius:30px;
+                border: 2px solid white;
+                padding: 2px;
+                list-style-type: none;
+                background: black;
+                }
+    </style>
+
+
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/dnaHome.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>WELCOME TO SPLENDID BIOANALYTICS </h5>
+        <p>SOLUTIONS FOR EVERYTHING RELATED TO BIOANALYTICS, IoT & DATA SCIENCE</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/datahomeee.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>DATA IS WEALTH</h5>
+        <p>DISSCUSS YOUR PROBLES WITH US & GET THE SOLUTIONS</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/IoThome2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>IoT</h5>
+        <p>CONNECT EVERYTHING</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<style>
+
+.card-body{font-size: medium;
+text-align: center;
+}
+
+</style>
+
+
+<style>
+  .Moto{ border-radius:30px;
+             border: 2px solid white;
+             padding: 50px;
+             list-style-type: none;
+             background:skyblue;
+             font-size:20px;
+             font-weight: bold;
+             font-style:italic;
+
+        
+             }
+ </style>
+ 
+<div class="div10">
+<h3 style="text-align: center; font-size: 35px;">Mantra Of Our Organization</h3>
+<p class="Moto" > 
+  <span style="color:#FF0000">Motto</span> of our firm is to linearized the research complexity, according to the objective of a scientific groups and provides detailed graphical and interactive output.  We provide solutions of problems like, <span style="color:#FF0000">IoT, Machine learning, Deep learning apprroaches</span>, Genome Assembly of all type of NGS data (Genomics and Transcriptomics), <span style="color:#FF0000">Gene Finding and Annotation, Marker Data Analysis (SSR, SNP etc.),</span></span> Comparative Genomics, Prediction of Environmental Data (Air and Water Pollutions).
+</p>
+</div>
+
+
+
+<div class="container my-4">
+<h3 class="my-4 text-center">Future of Tomorrow</h3>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/DNAIndex.jpg" class="d-block w-100"  alt="...">
+             <div class="card-body"> <h3 class="text-center">Bioanalytics</h3>
+              <p class="card-text" >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/IoTINdex.jpg" class="d-block w-100" alt="...">
+            <div class="card-body"><h3 class="text-center">IoT</h3>
+              <p class="card-text">In today's world more or less everything is connected to the internet. To connect the devices to another device a new technical terminology is emerged named <span style="color: #FF0000;">"Internet of Things"</span>. It is an emerging topic of conversation in the technical world. IoT or Internet of Things is a system that can take a small device or sensor and connect it to the internet for various end-user applications.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/dataindex.jpg" class="d-block w-100" alt="...">
+            <div class="card-body"> <h3 class="text-center">Data Science</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/indexsoft.jpg" class="d-block w-100" alt="...">
+            <div class="card-body"><h3 class="text-center">Application and Software Development</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+</div>
+
+{% endblock body  %}
+
